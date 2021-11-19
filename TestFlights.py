@@ -43,12 +43,20 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
-# Square
+# Square function 
 def square():
     sendmsg("up 75")
     for i in range(4):
         sendmsg("forward 100")
         sendmsg("ccw 90")
+
+# Triangle function
+def triangle():
+    for i in range(3):
+        sendmsg("forward 100")
+        sendmsg("cw 120")
+
+
 
 
 print("\nDominic Roudabush")
@@ -66,7 +74,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        square()
+        triangle()
 
         sendmsg('land')
 
