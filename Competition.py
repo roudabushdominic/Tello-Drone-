@@ -45,19 +45,25 @@ recvThread.start()
 
 
 def fistHoop():
+    sendmsg("up 50", 7)
+    sendmsg('forward 190')
 
-""" 
-# def secondHoop():
-
-
-
-# def thirdHoop():
-
+'''
+#def secondHoop():
+    sendmsg('go 170 0 40 65')
 
 
-# def fourthHoop():
 
-"""
+#def thirdHoop():
+    sendmsg('curve 100 100 0 30 250 0 60')
+    time.sleep(3)
+    sendmsg('ccw 100')
+
+
+#def fourthHoop():
+    sendmsg('go -250 0 -60 75')
+
+'''
 
 print("\nTeam; Roudabush & Levely")
 print("Program Name: Hoop competition")
