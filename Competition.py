@@ -52,11 +52,10 @@ def firsthoop():
 def secondHoop():
     sendmsg("go 220 0 40 65", 10)
 
-    '''
+'''
 #def thirdHoop():
-    sendmsg('curve 100 100 0 30 250 0 60')
-    time.sleep(3)
-    sendmsg('ccw 100')
+     sendmsg("curve 100 100 10 30 250 10 60", 10)
+    sendmsg("ccw 180", 6)
 
 
 #def fourthHoop():
