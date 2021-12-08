@@ -48,12 +48,11 @@ def firsthoop():
     sendmsg("up 50")
     sendmsg("forward 170", 10)
 
-'''
-#def secondHoop():
-    sendmsg('go 170 0 40 65')
 
+def secondHoop():
+    sendmsg("go 220 0 40 65", 10)
 
-
+    '''
 #def thirdHoop():
     sendmsg('curve 100 100 0 30 250 0 60')
     time.sleep(3)
