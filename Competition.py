@@ -44,9 +44,9 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-def fistHoop():
-    sendmsg("up 50", 7)
-    sendmsg('forward 190')
+def firsthoop():
+    sendmsg("up 50")
+    sendmsg("forward 170", 10)
 
 '''
 #def secondHoop():
